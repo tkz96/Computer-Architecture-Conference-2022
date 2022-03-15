@@ -11,7 +11,7 @@ function createSpeaker({name, occupation, desc, photo}) {
   <div class="speaker-image"><img src="${photo}" alt="${name}" /></div>
   <div>
     <h3>${name}</h3>
-    <p class="italic text_primary styled_text">${occupation}</p>
+    <p class="occupation">${occupation}</p>
     <p>${desc}</p>
   </div>
   `

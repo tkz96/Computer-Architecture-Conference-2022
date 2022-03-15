@@ -11,11 +11,9 @@
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
   background-color: #f7f7f9;
   margin: 0;
   padding: 0;
-  min-width: 320px;
 }
 
 h1 {
@@ -64,12 +62,17 @@ button:hover {
   flex-direction: column;
   width: 100%;
   background-image: url(../images/bg/mobile_intro_bg.png);
+  background: center;
   min-height: 100vh;
   background-repeat: no-repeat;
   padding: 20px 30px;
   gap: 12px;
 }
 
+.hello p {
+  color: #ec5242;
+  font-style: italic;
+}
 
 .app-header {
   display: flex;
@@ -148,6 +151,7 @@ button:hover {
 .title-section-info {
   background-color: #f7f7f8;
   border: solid 2px #fff;
+  max-width: 880px;
 }
 
 .main-program-section {
@@ -190,15 +194,25 @@ button:hover {
   margin: 20px auto;
 }
 
-.speaker-container {
-  gap: 50px;
-  width: 100%;
-  height: auto;
+.featured-speakers-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 12px;
 }
 
 .speaker {
+  margin: 12px;
+  border: 1px solid red;
   display: flex;
   gap: 20px;
+  max-width: 600px;
+}
+
+.occupation {
+  color: #ec5242;
+  font-style: italic;
 }
 
 .partners-section {

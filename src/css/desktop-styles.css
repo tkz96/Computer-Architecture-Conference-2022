@@ -21,7 +21,9 @@
     /* align-items: center; */
   }
 
-  .join {
-    display: none;
-  }
+  
+  .grid {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
 }
