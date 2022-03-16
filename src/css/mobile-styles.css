@@ -133,6 +133,7 @@ button:hover {
 
 .main-logo {
   max-width: 128px;
+  cursor: pointer;
 }
 
 .mobile-nav-menu {
@@ -265,4 +266,10 @@ footer {
   align-items: center;
   padding: 20px;
   gap: 20px;
+}
+
+.about-us-title {
+  background-color: #fff;
+  border: 1px solid #5c5f696e;
+  padding: 20px;
 }

@@ -1,23 +1,8 @@
 @media (min-width: 768px) {
+  section {
+    padding: 48px;
+  }
   .title-section {
-    background-image: url(../images/bg/main_big.png);
-  }
-
-  .title-section img {
-    max-width: 1024px;
-  }
-  .main-program {
-    flex-direction: row;
-    max-width: 1280px;
-  }
-
-  .main-program-item {
-    flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: center; */
-  }
-
-  .join {
-    display: none;
+    padding: 48px;
   }
 }

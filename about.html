@@ -5,12 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="src/css/mobile-styles.css" />
     <link rel="stylesheet" href="src/css/about-mobile-styles.css" />
     <link rel="stylesheet" href="src/css/desktop-styles.css" />
+    <link rel="stylesheet" href="src/css/about-desktop-styles.css" />
   </head>
   <body>
+    <nav class="socials">
+      <img
+        src="https://img.icons8.com/ios-filled/20/000000/twitter.png"
+        alt="twitter"
+      />
+      <img
+        src="https://img.icons8.com/ios-filled/20/000000/facebook.png"
+        alt="facebook"
+      />
+      <p>English</p>
+      <p>My Page</p>
+      <p>Log out</p>
+    </nav>
+    <header class="app-header">
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+
+      <img
+        class="main-logo"
+        src="src/images/logos/riscv-color.svg"
+        alt="website"
+        onclick="window.location.href = 'index.html'"
+      />
+
+      <nav class="mobile-navbar">
+        <ul class="mobile-nav-menu">
+          <li><a href="about.html" class="nav-item">About</a></li>
+          <li><a href="#" class="nav-item">Program</a></li>
+          <li><a href="#" class="nav-item">Join</a></li>
+          <li><a href="#" class="nav-item">Sponsor</a></li>
+          <li><a href="#" class="nav-item">News</a></li>
+          <li><a href="#" class="nav-item">CC Campaign</a></li>
+        </ul>
+
+        <ul class="desktop-nav-menu">
+          <li><a href="about.html" class="nav-item">About</a></li>
+          <li><a href="#" class="nav-item">Program</a></li>
+          <li><a href="#" class="nav-item">Join</a></li>
+          <li><a href="#" class="nav-item">Sponsor</a></li>
+          <li><a href="#" class="nav-item">News</a></li>
+          <li>
+            <a id="cc-campaign-button" href="#" class="nav-item">CC Campaign</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <main>
-      <section>
+      <section class="title-section">
         <h1>2022 ANNUAL COMPUTER ARCHITECTURE CONFERENCE</h1>
         <div class="underline"></div>
 
@@ -40,13 +91,13 @@
           </h4>
         </div>
         <p>
-          Do you have any other questions about CC Global Summit 2015?
-          ccsummit2015@cckorea.org
+          Do you have any other questions about CC Global Summit 2015?<br />
+          <b>ccsummit2015@cckorea.org</b>
         </p>
       </section>
-
+      <hr />
       <section>
-        <h3>Creative Commons Global Summit 2015 Logo</h3>
+        <h2>Creative Commons Global Summit 2015 Logo</h2>
         <div class="underline"></div>
 
         <p>
@@ -68,9 +119,9 @@
           beginning or end, no seclusion, 'oneness'. It has the meaning of '. "
         </p>
       </section>
-
+      <hr />
       <section>
-        <h3>View past global summits</h3>
+        <h2>View past global summits</h2>
         <div class="underline"></div>
 
         <p>
@@ -80,7 +131,24 @@
 
         <img src="" alt="" /><img src="" alt="" />
       </section>
+      <hr />
     </main>
-    <footer></footer>
+    <footer>
+      <img
+        class="main-logo"
+        src="src/images/logos/riscv-color.svg"
+        alt="website"
+      />
+
+      <div class="footer-text">
+        <p>
+          2022 Creative Commons Korea.<br />
+          Some Rights Reserved <br />
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
+    </footer>
+    <script src="src/js/mobileNavMenu.js"></script>
   </body>
 </html>
