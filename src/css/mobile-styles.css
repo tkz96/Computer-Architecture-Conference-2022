@@ -75,9 +75,8 @@ button:hover {
   width: 100%;
   background-image: url(../images/bg/mobile_intro_bg.png);
   background: center;
-  min-height: 100vh;
   background-repeat: no-repeat;
-  padding: 100px 20px;
+  padding: 80px 20px;
   gap: 12px;
 }
 
@@ -226,7 +225,6 @@ button:hover {
 
 .speaker {
   margin: 12px;
-  border: 1px solid red;
   display: flex;
   gap: 20px;
   max-width: 600px;
@@ -255,6 +253,10 @@ button:hover {
 
 .partners-logos img {
   max-width: 120px;
+}
+
+.invert {
+  filter: invert();
 }
 
 footer {
