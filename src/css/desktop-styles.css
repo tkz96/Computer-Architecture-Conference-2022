@@ -1,11 +1,9 @@
 @media (min-width: 768px) {
   .title-section {
     background-image: url(../images/bg/main_big.png);
+    padding-left: 100px;
   }
-
-  .title-section img {
-    max-width: 1024px;
-  }
+  
   .main-program {
     flex-direction: row;
     max-width: 1280px;
@@ -13,6 +11,10 @@
 
   h1 {
     font-size: 72px;
+  }
+
+  .hello {
+    max-width: 800px;
   }
 
   .main-program-item {
@@ -76,5 +78,15 @@
     border: solid 4px #ec5242;
     padding: 4px;
     margin-left: 16px;
+  }
+
+  .partners-logos {
+    flex-direction: row;
+    margin-bottom: 24px;
+  }
+
+  footer {
+    flex-direction: row;
+    justify-content: center;
   }
 }
