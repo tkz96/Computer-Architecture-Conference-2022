@@ -1,8 +1,14 @@
 @media (min-width: 768px) {
-  section {
-    padding: 48px;
-  }
   .title-section {
     padding: 48px;
+  }
+  .past-summits {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .past {
+    width: 400px;
+    height: 280px;
   }
 }
