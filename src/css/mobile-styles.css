@@ -74,6 +74,10 @@ button:hover {
   font-style: italic;
 }
 
+.socials {
+  display: none;
+}
+
 .app-header {
   display: flex;
   justify-content: space-between;
@@ -100,7 +104,6 @@ button:hover {
   margin: 5px auto;
   border-radius: 2px;
   background-color: #ec5242;
-  z-index: 2;
   transition: all 0.3s ease-in-out 0.3s;
 }
 
@@ -139,7 +142,7 @@ button:hover {
 }
 
 .nav-item {
-  color: #fff;
+  color: #272a31;
   font-weight: 600;
   font-size: 32px;
 }
@@ -216,6 +219,7 @@ button:hover {
 }
 
 .partners-section {
+  display: flex;
   background-color: #414246;
 }
 
