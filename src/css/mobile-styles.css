@@ -74,7 +74,7 @@ button:hover {
   flex-direction: column;
   width: 100%;
   background-image: url(../images/bg/mobile_intro_bg.png);
-  background: center;
+  background-position: center;
   background-repeat: no-repeat;
   padding: 80px 20px;
   gap: 12px;
