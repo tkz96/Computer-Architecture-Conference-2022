@@ -12,7 +12,11 @@ Microverse Module 1 (HTML, CSS &amp; JS basics) Capstone Project
 
 # Live Demo to my website
 
-[Live Demo Link](https://tkz96.github.io/)
+[Live Demo Link](https://tkz96.github.io/Capstone1/index.html)
+
+# Link to the video on Loom
+
+[Click here to watch the video demo](https://www.loom.com/share/9e9acd954b1a4671ba032c1859b981c0)
 
 ## Getting Started
 
