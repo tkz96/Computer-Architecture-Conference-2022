@@ -1,8 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# 2022 ANNUAL COMPUTER ARCHITECTURE CONFERENCE
 
 Microverse Module 1 (HTML, CSS &amp; JS basics) Capstone Project
+
+My name is Talha and I am a student at Microverse studying Full-Stack Engineering.
+Each module has a capstone project showcasing our skills learned in that module.
+This project is a reimagining of the template by Cindy Shin (link in the acknowledgements) and is an event website for an imaginary conference called the 2022 Annual Computer Architecture Conferece.
 
 ## Built With
 

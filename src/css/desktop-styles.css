@@ -19,8 +19,6 @@
 
   .main-program-item {
     flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: center; */
     transition-duration: 0.3s;
   }
 
