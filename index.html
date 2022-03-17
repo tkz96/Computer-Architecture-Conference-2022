@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2022 ANNUAL COMPUTER ARCHITECTURE CONFERENCE</title>
+    <link rel="stylesheet" href="src/css/mobile-styles.css" />
+    <link rel="stylesheet" href="src/css/desktop-styles.css" />
+  </head>
+  <body>
+    <nav class="socials">
+      <img
+        src="https://img.icons8.com/ios-filled/20/000000/twitter.png"
+        alt="twitter"
+      />
+      <img
+        src="https://img.icons8.com/ios-filled/20/000000/facebook.png"
+        alt="facebook"
+      />
+      <p>English</p>
+      <p>My Page</p>
+      <p>Log out</p>
+    </nav>
+    <header class="app-header">
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+
+      <img
+        class="main-logo"
+        src="src/images/logos/riscv-color.svg"
+        alt="website"
+        onclick="window.location.href = 'index.html'"
+      />
+
+      <nav class="mobile-navbar">
+        <ul class="mobile-nav-menu">
+          <li><a href="about.html" class="nav-item">About</a></li>
+          <li><a href="#" class="nav-item">Program</a></li>
+          <li><a href="#" class="nav-item">Join</a></li>
+          <li><a href="#" class="nav-item">Sponsor</a></li>
+          <li><a href="#" class="nav-item">News</a></li>
+          <li><a href="#" class="nav-item">CC Campaign</a></li>
+        </ul>
+
+        <ul class="desktop-nav-menu">
+          <li><a href="about.html" class="nav-item">About</a></li>
+          <li><a href="#" class="nav-item">Program</a></li>
+          <li><a href="#" class="nav-item">Join</a></li>
+          <li><a href="#" class="nav-item">Sponsor</a></li>
+          <li><a href="#" class="nav-item">News</a></li>
+          <li>
+            <a id="cc-campaign-button" href="#" class="nav-item">CC Campaign</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="title-section">
+        <div class="hello">
+          <p>"Hello, Silicon World!"</p>
+
+          <h1>2022 ANNUAL COMPUTER ARCHITECTURE CONFERENCE</h1>
+
+          <div class="title-section-info">
+            <p>
+              A joyful celebration believing in the value of openness and
+              sharing, creating a positive change with people from over 80
+              countries is taking place in October, in Korea.
+            </p>
+          </div>
+        </div>
+        <div class="date-of-event">
+          <h3>2022.10.15(SAT) ~ 16(SUN)</h3>
+          <p>@ National Museum of Korea, Art Center Nabi, etc.</p>
+        </div>
+      </section>
+      <section class="main-program-section">
+        <h2 class="main-program-heading">Main Program</h2>
+        <div class="underline"></div>
+        <div class="main-program">
+          <div class="main-program-item">
+            <img src="src/icons/program_icon_01.png" alt="1" />
+            <h3>Lecture</h3>
+            <p>
+              Try creating your own work using open source license rather than
+              just watching
+            </p>
+          </div>
+          <div class="main-program-item">
+            <img src="src/icons/program_icon_02.png" alt="2" />
+            <h3>CC Exhibition</h3>
+            <p>
+              Try creating your own work using open source license rather than
+              just watching
+            </p>
+          </div>
+          <div class="main-program-item">
+            <img src="src/icons/program_icon_03.png" alt="3" />
+            <h3>Forum</h3>
+            <p>
+              Try creating your own work using open source license rather than
+              just watching
+            </p>
+          </div>
+          <div class="main-program-item">
+            <img src="src/icons/program_icon_04.png" alt="4" />
+            <h3>Workshop</h3>
+            <p>
+              Try creating your own work using open source license rather than
+              just watching
+            </p>
+          </div>
+          <div class="main-program-item">
+            <img src="src/icons/program_icon_05.png" alt="5" />
+            <h3>CC Ignite</h3>
+            <p>
+              Try creating your own work using open source license rather than
+              just watching
+            </p>
+          </div>
+        </div>
+        <button class="join">Join CC Global Summit 2022</button>
+      </section>
+
+      <section class="featured-speakers-section">
+        <h2 class="featured-speakers-heading">Featured Speakers</h2>
+        <div class="underline"></div>
+        <div id="speakers-container"></div>
+      </section>
+
+      <section class="partners-section">
+        <h2 class="partners-heading">Partners</h2>
+        <div class="underline"></div>
+        <div class="partners-logos">
+          <img
+            class="invert"
+            src="https://img.icons8.com/fluency/144/000000/amd.png"
+            alt="amd"
+          />
+          <img
+            class="invert"
+            src="src/images/logos/Arm_logo_black_150MD.png"
+            alt="arm"
+          />
+          <img src="src/images/logos/intel-logo-2-1.png" alt="intel" />
+          <img
+            src="https://img.icons8.com/color/240/000000/nvidia.png"
+            alt="nvidia"
+          />
+          <img
+            src="https://img.icons8.com/color/240/000000/samsung.png"
+            alt="samsung"
+          />
+        </div>
+      </section>
+
+      <footer>
+        <img
+          class="main-logo"
+          src="src/images/logos/riscv-color.svg"
+          alt="website"
+        />
+
+        <div class="footer-text">
+          <p>
+            2022 Creative Commons Korea.<br />
+            Some Rights Reserved <br />
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </footer>
+    </main>
+    <script src="src/js/mobileNavMenu.js"></script>
+    <script type="module" src="src/js/speakers.js"></script>
+  </body>
+</html>
